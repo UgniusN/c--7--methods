@@ -10,6 +10,14 @@ namespace App2
     {
         static void Main(string[] args)
         {
+            Console.WriteLine(Suma(9, 5));
+            Console.Read();
+        }
+
+
+        public static int Suma(int a, int b)
+        {
+            return a + b;
         }
     }
 }
