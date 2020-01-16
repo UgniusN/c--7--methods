@@ -10,6 +10,18 @@ namespace App8
     {
         static void Main(string[] args)
         {
+            Console.WriteLine(apverstiSkaiciu(543));
+            Console.Read();
+        }
+
+
+        public static int apverstiSkaiciu(int a)
+        {
+            String skaiciusString = a.ToString();
+            char[] charArray = skaiciusString.ToCharArray();
+            Array.Reverse(charArray);
+            String skaicius = new string(charArray);
+            return Convert.ToInt32(skaicius);
         }
     }
 }
