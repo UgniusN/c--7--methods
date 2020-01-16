@@ -10,6 +10,17 @@ namespace App3
     {
         static void Main(string[] args)
         {
+            Console.WriteLine(arLyginis(6));
+            Console.Read();
+        }
+
+
+        public static Boolean arLyginis(int a)
+        {
+            if (a % 2 == 0)
+                return true;
+            else
+                return false;
         }
     }
 }
